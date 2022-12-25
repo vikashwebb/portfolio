@@ -38,7 +38,7 @@ function About() {
               </h1>
               <img
                 src={heroUnderLine}
-                alt=""
+                alt={heroUnderLine}
                 className="image hero-about-underline"
               />
               <p className="paragraph hero-about">
@@ -122,7 +122,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={html5}
-                          alt=""
+                          alt={html5}
                           className="image articles-news-section"
                         />
                       </div>
@@ -136,7 +136,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={css3}
-                          alt=""
+                          alt={css3}
                           className="image articles-news-section"
                         />
                       </div>
@@ -150,7 +150,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={bootstrap}
-                          alt=""
+                          alt={bootstrap}
                           className="image articles-news-section"
                         />
                       </div>
@@ -164,7 +164,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={tailwind}
-                          alt=""
+                          alt={tailwind}
                           className="image articles-news-section"
                         />
                       </div>
@@ -178,9 +178,9 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={sass}
-                          alt=""
+                          alt={sass}
                           className="image articles-news-section"
-                        />
+                          />
                       </div>
                       <div className="split-content articles-news-section">
                         <h3>Sass</h3>
@@ -192,7 +192,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={md}
-                          alt=""
+                          alt={md}
                           className="image articles-news-section"
                         />
                       </div>
@@ -206,7 +206,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={jquery}
-                          alt=""
+                          alt={jquery}
                           className="image articles-news-section"
                         />
                       </div>
@@ -220,7 +220,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={js}
-                          alt=""
+                          alt={js}
                           className="image articles-news-section"
                         />
                       </div>
@@ -234,7 +234,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={reactNative}
-                          alt=""
+                          alt={reactNative}
                           className="image articles-news-section"
                         />
                       </div>
@@ -248,7 +248,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={vue}
-                          alt=""
+                          alt={vue}
                           className="image articles-news-section"
                         />
                       </div>
@@ -262,7 +262,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={photoshop}
-                          alt=""
+                          alt={photoshop}
                           className="image articles-news-section"
                         />
                       </div>
@@ -276,7 +276,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={vsCode}
-                          alt=""
+                          alt={vsCode}
                           className="image articles-news-section"
                         />
                       </div>
@@ -290,7 +290,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={codepen}
-                          alt=""
+                          alt={codepen}
                           className="image articles-news-section"
                         />
                       </div>
@@ -304,7 +304,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={netlify}
-                          alt=""
+                          alt={netlify}
                           className="image articles-news-section"
                         />
                       </div>
@@ -318,7 +318,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={bitbucket}
-                          alt=""
+                          alt={bitbucket}
                           className="image articles-news-section"
                         />
                       </div>
@@ -332,7 +332,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={git}
-                          alt=""
+                          alt={git}
                           className="image articles-news-section"
                         />
                       </div>
@@ -346,7 +346,7 @@ function About() {
                       <div className="image-wrapper articles-news-card">
                         <img
                           src={github}
-                          alt=""
+                          alt={github}
                           className="image articles-news-section"
                         />
                       </div>

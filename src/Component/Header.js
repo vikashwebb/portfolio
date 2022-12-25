@@ -14,7 +14,7 @@ function Header() {
     if(windowSize.innerHeight > 480 ){
       setMobileMenu(false) 
     }
-  }, [windowSize.innerHeight]);
+  }, [windowSize.innerHeight, windowSize.innerWidth]);
 
   function getWindowSize() {
     const {innerWidth, innerHeight} = window;
@@ -38,12 +38,12 @@ function Header() {
         <div className="header-wrapper">
           <div className="split-content header-right">
             <Link to="/" className="brand w-nav-brand w--current">
-              <img src={logo} alt="" className="header-logo" />
+              <img src={logo} alt={logo} className="header-logo" />
             </Link>
           </div>
           <div className="split-content header-center">
             <nav role="navigation" className="nav-menu w-nav-menu" style={ { display: mobileMenu ? 'none' : 'block' } } >
-              <ul role="list" className="header-navigation">
+              <ul className="header-navigation">
                 <li className="nav-item-wrapper">
                   <Link to="/" className="nav-link w--current">
                     Home
@@ -71,7 +71,7 @@ function Header() {
               >
                 <img
                   src={email}
-                  alt=""
+                  alt={email}
                   className="image email-header-icon"
                 />
                 <div>vikashwebb@gmail.com</div>
@@ -95,8 +95,8 @@ function Header() {
               className="email-header-wrapper w-inline-block"
             >
               <img
-              src={email}
-                alt=""
+                src={email}
+                alt={email}
                 className="image email-header-icon"
               />
               <div>vikashwebb@gmail.com</div>

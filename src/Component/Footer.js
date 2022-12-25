@@ -32,7 +32,7 @@ function Footer() {
                 aria-current="page"
                 className="footer-logo-container w-inline-block w--current"
               >
-                <img src={logo} alt="" className="header-logo" />
+                <img src={logo} alt={logo} className="header-logo" />
               </a>
               <p className="paragraph footer-paragraph">
                 I am a curious person who loves to learn new things. I am a
@@ -55,7 +55,7 @@ function Footer() {
                     >
                       <img
                         src={github}
-                        alt=""
+                        alt={github}
                         className="image footer-social-link"
                       />
                     </a>
@@ -65,7 +65,7 @@ function Footer() {
                     >
                       <img
                         src={codepen}
-                        alt=""
+                        alt={codepen}
                         className="image footer-social-link"
                       />
                     </a>
@@ -76,7 +76,7 @@ function Footer() {
                     >
                       <img
                         src={linkedin}
-                        alt=""
+                        alt={linkedin}
                         className="image footer-social-link"
                       />
                     </a>
@@ -87,7 +87,7 @@ function Footer() {
               <div className="footer-menu-wrapper contact-links">
                 <div className="title h4-size footer-menu">Contact Me</div>
                 <div className="footer-menu-content contact-links">
-                  <ul role="list" className="footer-nav last w-list-unstyled">
+                  <ul className="footer-nav last w-list-unstyled">
                     <li className="footer-nav-item">
                       <a
                         href="mailto:hello@you.com"
@@ -95,7 +95,7 @@ function Footer() {
                       >
                         <img
                           src={email}
-                          alt=""
+                          alt={email}
                           className="image contact-link-icon footer-icon"
                         />
                         <div>vikashwebb@gmail.com</div>
@@ -108,7 +108,7 @@ function Footer() {
                       >
                         <img
                           src={phone}
-                          alt=""
+                          alt={phone}
                           className="image contact-link-icon footer-icon"
                         />
                         <div>8587062088</div>
@@ -124,7 +124,7 @@ function Footer() {
       <div className="footer-content-bottom">
         <div>
           Copyright © & Designed by VikashK - Made in
-          <img src={reactLogo} className="footerLogo" />
+          <img src={reactLogo} className="footerLogo" alt="{reactLogo}" />
         </div>
       </div>
     </footer>

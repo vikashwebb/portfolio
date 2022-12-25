@@ -203,27 +203,7 @@ function Contact() {
               </div>
             </form>
             <ToastContainer />
-            <div className="success-message contact w-form-done">
-              <div className="split-content contact-form-success-message">
-                <h2 className="title contact-form-success-message">
-                  Your message has been submitted.
-                </h2>
-                <img
-                  src="images/6112bdfb2b341387dfa368b4_portfolio-underline-personal-x-template_jhd366bk5ne2zam5v2m43t.svg"
-                  loading="lazy"
-                  alt=""
-                  className="image contact-success-message"
-                />
-                <div>
-                  I will get back to you within 24-48 hours.
-                  <br />
-                  elit, sed do eiusmod tempor incididunt ut.
-                </div>
-              </div>
-            </div>
-            <div className="error-message w-form-fail">
-              <div>Oops! Something went wrong.</div>
-            </div>
+              
           </div>
         </div>
       </div>
