@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
+
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import "./Style/style.css";
-import Header from "./Component/Header";
-import Footer from "./Component/Footer";
+// import Header from "./Component/Header";
+// import Footer from "./Component/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";

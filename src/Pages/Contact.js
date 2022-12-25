@@ -38,7 +38,7 @@ function Contact() {
     // data.preventDefault();
     // Destrcture data object
     const { name, email, subject, message, mobile } = data;
-    console.log('hello onsubmit is hits',  name, email, subject, message)
+    console.log('hello onsubmit is hits',  name, email, subject, message, mobile)
     try {
       await emailjs.sendForm('service_1wp73qg', 'template_880ycjm', form.current, 'Wr1p_JOLoNYLE_rxr')
         .then((result) => {

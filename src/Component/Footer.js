@@ -1,7 +1,7 @@
 import reactLogo from "../logo.svg";
-import facebook from "../images/facebook.svg";
-import twitter from "../images/twitter.svg";
-import insta from "../images/insta.svg";
+// import facebook from "../images/facebook.svg";
+// import twitter from "../images/twitter.svg";
+// import insta from "../images/insta.svg";
 // import linkedin from "../images/linkedin.svg";
 import email from "../images/mail.svg";
 import phone from "../images/call.svg";
@@ -51,7 +51,6 @@ function Footer() {
                   <div className="_5-column-grid footer-social-links-grid">
                     <a
                       href="https://www.linkedin.com/in/vikashwebb/"
-                      target="_blank"
                       className="footer-social-link w-inline-block"
                     >
                       <img
@@ -62,7 +61,6 @@ function Footer() {
                     </a>
                     <a
                       href="https://codepen.io/coderV"
-                      target="_blank"
                       className="footer-social-link w-inline-block"
                     >
                       <img
@@ -71,21 +69,9 @@ function Footer() {
                         className="image footer-social-link"
                       />
                     </a>
-                    {/* <a
-                      id="w-node-_76f69537-9545-3254-9e62-804702692aed-ae2f46c5"
-                      href="https://www.instagram.com/"
-                      target="_blank"
-                      className="footer-social-link w-inline-block"
-                    >
-                      <img
-                        src={insta}
-                        alt=""
-                        className="image footer-social-link"
-                      />
-                    </a> */}
+                    
                     <a
                       href="https://github.com/vikashwebb"
-                      target="_blank"
                       className="footer-social-link w-inline-block"
                     >
                       <img

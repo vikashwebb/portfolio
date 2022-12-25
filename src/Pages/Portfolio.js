@@ -2,7 +2,7 @@ import Header from "../Component/Header";
 import Footer from "../Component/Footer";
 import mochi from "../images/mochi.jpg";
 import zink from "../images/zink.jpg";
-import sabhyata from "../images/sabhyata.jpg";
+// import sabhyata from "../images/sabhyata.jpg";
 import ketch from "../images/ketch.jpg";
 import siyaram from "../images/siyaram.jpg";
 import walkway from "../images/walkway.jpg";
