@@ -7,14 +7,16 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [mobileMenu, setMobileMenu] = useState(true)
-  const [windowSize] = useState(getWindowSize());
+  // const [windowSize, setWindowSize] = useState(getWindowSize());
 
   useEffect(() => {
-    console.log('window size ', windowSize.innerWidth)
-    if(windowSize.innerHeight > 480 ){
+    // setWindowSize(getWindowSize())
+    
+    if(getWindowSize().innerWidth > 480 ){
+      console.log('window size ', getWindowSize().innerWidth)
       setMobileMenu(false) 
     }
-  }, [windowSize.innerHeight, windowSize.innerWidth]);
+  }, []);
 
   function getWindowSize() {
     const {innerWidth, innerHeight} = window;

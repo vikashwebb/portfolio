@@ -32,7 +32,12 @@ video {
   display: inline-block;
   vertical-align: baseline
 }
-
+.errorMessage{
+  font-size: 12px;
+    color: #D8000C;
+    margin-top: -5px;
+    display: block;
+}
 audio:not([controls]) {
   display: none;
   height: 0
