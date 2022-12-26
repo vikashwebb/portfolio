@@ -97,8 +97,8 @@ function Home() {
               <div className="split-content home-about">
                 <h2 className="title home-about">Let's Collaborate</h2>
                 <p className="paragraph home-about">
-                  Have an idea or an epic project in mind? Talk to me. Let’s
-                  work together and make something great.
+                  Have an idea or an epic project in mind?
+                  Let's work together and make something great.
                 </p>
                 {/* <a href="about.html" className="button-primary w-button">
                   Get in touch

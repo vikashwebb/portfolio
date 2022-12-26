@@ -35,10 +35,11 @@ function Footer() {
                 <img src={logo} alt={logo} className="header-logo" />
               </a>
               <p className="paragraph footer-paragraph">
-                I am a curious person who loves to learn new things. I am a
-                lifelong learner and I enjoy sharing my knowledge with others. I
-                am a good listener and I am always open to new ideas.
+                Someone curious who loves to learn new things; A
+                lifelong learner who enjoys sharing knowledge with others.<br></br>
+                <i>"Alone we can do so little; together we can do so much" - Helen Keller</i>
               </p>
+
               
             </div>
             <div className="footer-nav-wrapper">
