@@ -11035,10 +11035,22 @@ blockquote .card{
   }
 
   .bg.services-square {
-    min-height: 103%;
+    min-height: 108%;
     margin-top: -24px;
   }
-
+  ._5-column-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .aboutWraper .image.articles-news-section{
+    margin: auto;
+  }
+  .card.blog-card{
+    /* max-height: 175px; */
+  }
+  .image.articles-news-section{
+    object-fit: cover;
+    object-position: top;
+  }
   .bg.resume-square {
     min-height: 103%;
   }
