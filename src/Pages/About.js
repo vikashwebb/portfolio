@@ -197,7 +197,7 @@ function About() {
                         />
                       </div>
                       <div className="split-content articles-news-section">
-                        <h3>Metiral Design</h3>
+                        <h3>Material Design</h3>
                       </div>
                     </div>
                   </div>

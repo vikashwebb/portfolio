@@ -50,7 +50,7 @@ function Footer() {
                 <div className="footer-menu-content pages">
                   <div className="_5-column-grid footer-social-links-grid">
                     <a
-                      href="https://www.linkedin.com/in/vikashwebb/"
+                      href="https://github.com/vikashwebb"
                       className="footer-social-link w-inline-block"
                     >
                       <img
@@ -71,7 +71,7 @@ function Footer() {
                     </a>
                     
                     <a
-                      href="https://github.com/vikashwebb"
+                      href="https://www.linkedin.com/in/vikashwebb/"
                       className="footer-social-link w-inline-block"
                     >
                       <img
@@ -90,7 +90,7 @@ function Footer() {
                   <ul className="footer-nav last w-list-unstyled">
                     <li className="footer-nav-item">
                       <a
-                        href="mailto:hello@you.com"
+                        href="mailto:vikashwebb@gmail.com"
                         className="contact-link-wrapper w-inline-block"
                       >
                         <img
@@ -103,7 +103,7 @@ function Footer() {
                     </li>
                     <li className="footer-nav-item">
                       <a
-                        href="tel:(415)200-8613"
+                        href="tel:8587062088"
                         className="contact-link-wrapper w-inline-block"
                       >
                         <img

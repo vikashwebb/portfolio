@@ -10893,7 +10893,9 @@ blockquote .card{
   .split-content.hero-about-right {
     margin-bottom: 24px;
   }
-
+  .footer-content-bottom{
+    font-size: 13px;
+  }
   .split-content.featured-blog-main-wrapper {
     padding: 32px 24px;
   }
