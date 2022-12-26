@@ -10883,7 +10883,7 @@ blockquote .card{
   }
 
   .split-content.articles-news-section {
-    padding-bottom: 35px;
+    padding-bottom: 25px;
   }
 
   .split-content.testimonial-content {
@@ -11043,9 +11043,14 @@ blockquote .card{
   }
   .aboutWraper .image.articles-news-section{
     margin: auto;
+    object-fit: contain;
+    object-position: center;
   }
-  .card.blog-card{
-    /* max-height: 175px; */
+  .image-wrapper.articles-news-card{
+    height: auto;
+  }
+  .title.my-skills{
+    margin-bottom: 40px;
   }
   .image.articles-news-section{
     object-fit: cover;
