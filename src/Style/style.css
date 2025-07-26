@@ -6744,7 +6744,7 @@ blockquote .card{
 }
 
 .image-wrapper {
-  background-color: #dbf3ff;
+  /* background-color: #dbf3ff; */
   text-align: center;
   overflow: hidden;
 }
