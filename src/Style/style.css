@@ -6553,7 +6553,7 @@ blockquote .card{
 
 .split-content.articles-news-section {
   padding: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 .split-content.articles-news-section h3 {
   margin: 0;
@@ -6578,10 +6578,24 @@ blockquote .card{
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: 14px;
 }
 
+.image-zoom {
+  height: 250px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.image-zoom:hover {
+  transform: scale(1.1);
+}
 .split-content.hero-about-right {
   position: relative;
   max-width: 578px;
@@ -6730,8 +6744,9 @@ blockquote .card{
 }
 
 .image-wrapper {
-  /* background-color: #dbf3ff; */
+  background-color: #dbf3ff;
   text-align: center;
+  overflow: hidden;
 }
 
 .image-wrapper.order-item-image {
